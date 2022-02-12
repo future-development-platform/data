@@ -1,3 +1,6 @@
 #!/bin/bash
+git checkout main 
 
-git reset --soft HEAD^ && git add -A && git commit -m "update data" && git push -f
+git add -A 
+git commit -m "update data" 
+git push -f
